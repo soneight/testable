@@ -7,12 +7,11 @@
 #define TEST_FAILED 1
 #endif
 
-#if defined(SON8_OVERGLAD_VERSION_2_1) \
+#if defined(SON8_OVERGLAD_PROFILE_COMP) || defined(SON8_OVERGLAD_PROFILE_CORE) \
+    || defined(SON8_OVERGLAD_VERSION_2_1) \
     || defined(SON8_OVERGLAD_VERSION_3_3) \
     || defined(SON8_OVERGLAD_VERSION_4_3) \
-    || defined(SON8_OVERGLAD_VERSION_4_6) \
-    || defined(SON8_OVERGLAD_PROFILE_CORE) \
-    || defined(SON8_OVERGLAD_PROFILE_COMP)
+    || defined(SON8_OVERGLAD_VERSION_4_6)
 #define TEST_FAILED 2
 #endif
 
