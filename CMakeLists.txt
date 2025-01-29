@@ -4,6 +4,5 @@ project(testable VERSION 0.0.0 LANGUAGES CXX)
 
 set(SON8PROJ son8${PROJECT_NAME})
 
-add_subdirectory(source)
-
 enable_testing()
+add_subdirectory(source)
