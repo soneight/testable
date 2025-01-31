@@ -20,3 +20,5 @@ int main() {
     return TEST_FAILED;
 #endif
 }
+
+// Ⓒ 2025 Oleg'Ease'Kharchuk ᦒ
