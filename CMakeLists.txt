@@ -6,6 +6,5 @@ set(SON8PROJ son8__${PROJECT_NAME})
 
 include(FetchContent)
 
-add_subdirectory(source)
-
 enable_testing()
+add_subdirectory(source)
