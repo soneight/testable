@@ -1,5 +1,7 @@
 #include <son8/overglad.hxx>
 
+#include <glad/son8/define.h>
+
 #if SON8_OVERGLAD_VERSION != 0x0406CE \
     || !defined(SON8_OVERGLAD_PROFILE_CORE) \
     || !defined(SON8_OVERGLAD_INCLUDE) \
@@ -15,6 +17,8 @@
 #if defined(SON8_OVERGLAD_PROFILE_COMP) || defined(SON8_OVERGLAD_PROFILE_NONE)
 #define TEST_FAILED 2
 #endif
+
+// TODO: add tests for enum constants
 
 int main()
 {
